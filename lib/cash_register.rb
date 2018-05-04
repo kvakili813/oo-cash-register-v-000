@@ -3,7 +3,7 @@ class CashRegister
 
   attr_accessor :discount, :total, :price
 
-  @@all = []
+  @@last = @items.last
 
   def initialize(discount = nil)
     @total = 0
@@ -42,7 +42,7 @@ end
   end
 
   def void_last_transaction
-    @total - @items.last 
+    @total - @items.last
   end
 
 end
