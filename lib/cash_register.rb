@@ -3,7 +3,7 @@ class CashRegister
 
   attr_accessor :discount, :total, :price
 
-  @@last = @items.last
+  @@last
 
   def initialize(discount = nil)
     @total = 0
