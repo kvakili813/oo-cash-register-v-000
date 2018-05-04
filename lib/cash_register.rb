@@ -16,7 +16,7 @@ class CashRegister
   def add_item(title, price, quantity = 1)
     @total += price*quantity
     if quantity > 1
-      3.times do |i|
+      quantity.times do |i|
       @items << title
       end
     else
