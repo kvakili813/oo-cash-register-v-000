@@ -18,6 +18,7 @@ class CashRegister
     if quantity > 1
       @items << title
     else
+    end
 
   end
 
