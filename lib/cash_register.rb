@@ -20,7 +20,7 @@ class CashRegister
       @items << title
       end
     else
-      @items
+      @items << title
     end
   end
 
