@@ -42,7 +42,7 @@ end
   end
 
   def void_last_transaction
-
+    @total - @@all.last 
   end
 
 end
