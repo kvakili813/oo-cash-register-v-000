@@ -40,8 +40,7 @@ end
   end
 
   def void_last_transaction
-    binding.pry
-    @total - @items
+    @total - @last_price
   end
 
 end
