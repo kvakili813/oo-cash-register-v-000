@@ -18,6 +18,7 @@ class CashRegister
     if quantity > 1
       3.times do |i|
       @items << title
+      end
     else
     end
   end
