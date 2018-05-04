@@ -9,6 +9,7 @@ class CashRegister
     @total = 0
     @discount = discount
     @items = []
+    @@last
   end
 
   def self.total(total = 100)
