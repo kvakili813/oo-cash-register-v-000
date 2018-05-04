@@ -16,11 +16,10 @@ class CashRegister
   def add_item(title, price, quantity = 1)
     @total += price*quantity
     if quantity > 1
-      binding.pry
+      3.times do |i|
       @items << title
     else
     end
-
   end
 
 def apply_discount
